@@ -26,9 +26,10 @@ form="""<!DOCTYPE html>
     </head>
     <body>
         <form method="POST">
-            Rotate By : <input value="0" name="rot">
-			<textarea name="text" rows="4" cols="50">{0}</textarea>
-            <input value="Submit Query" type="submit">
+            Encryption degree: <input value="0" name="rot">
+
+			<p> Enter Sensitive Message Below:</p> <textarea name="text" rows="4" cols="50">{0}</textarea>
+            <input value="Encrypt It" type="submit">
         </form>
     </body>
 </html>"""
